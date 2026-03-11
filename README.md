@@ -19,9 +19,9 @@ Anomalies here is generated with the following method:
   →
   High Residual (Anomaly Detected).
 
-#Results
+# Results
 <img width="1456" height="998" alt="image" src="https://github.com/user-attachments/assets/5744b11b-ddbb-44ec-affb-6664d96b12d8" />
 
 
-#Trained on 64x64 and tested on 128x128 ( where CNNs usually break )
+# Trained on 64x64 and tested on 128x128 ( where CNNs usually break )
 <img width="1218" height="407" alt="image" src="https://github.com/user-attachments/assets/410e5c6f-3d5a-4314-a91f-d743a53bc4b1" />
