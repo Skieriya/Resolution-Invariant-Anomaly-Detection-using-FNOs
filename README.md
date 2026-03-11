@@ -1,0 +1,1 @@
+# Resolution-Invariant-Anomaly-Detection-using-FNOs
