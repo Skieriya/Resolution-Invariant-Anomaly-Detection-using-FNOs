@@ -20,8 +20,8 @@ Anomalies here is generated with the following method:
   High Residual (Anomaly Detected).
 
 # Results
-<img width="1456" height="998" alt="image" src="https://github.com/user-attachments/assets/5744b11b-ddbb-44ec-affb-6664d96b12d8" />
+<img width="986" height="339" alt="download" src="https://github.com/user-attachments/assets/42494a1e-911d-43db-a5a6-983359cbbd56" />
 
 
-# Trained on 64x64 and tested on 128x128 ( where CNNs usually break )
-<img width="1218" height="407" alt="image" src="https://github.com/user-attachments/assets/410e5c6f-3d5a-4314-a91f-d743a53bc4b1" />
+# Trained on 421x421 and tested on 842x842 
+<img width="1061" height="989" alt="image" src="https://github.com/user-attachments/assets/f2392699-19b2-4a50-bf9a-db83d506f53f" />
