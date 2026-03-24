@@ -5,23 +5,17 @@ This led me into thinking of making FNOs learn the normal behavior with physics 
 
 Anomalies here is generated with the following method:
 1. Feed current data into the FNO.
-2. FNO predicts what the data should look like next.
-3. Wait for the actual next data point.
-4. Calculate Residual = |Prediction - Actual|.
+2. FNO predicts what the data should look like next by learning physics.
+3. If you input anomalous data in it the error function will find calculate Residual = |Prediction - Actual| or abnormal physics which can be seen in the error map
 
-# If the system is normal, the FNO (with learned physics) predicts accurately → Low Residual.
 
-# If there is an anomaly (e.g., a leak, a crack, a cyber-attack on sensors), the physics break 
-  →
-  The FNO predicts the "physics-compliant" outcome 
-  →
-  The actual data looks different  
-  →
-  High Residual (Anomaly Detected).
 
 # Results
-<img width="986" height="339" alt="download" src="https://github.com/user-attachments/assets/42494a1e-911d-43db-a5a6-983359cbbd56" />
+<img width="1089" height="528" alt="image" src="https://github.com/user-attachments/assets/315ba6eb-a6f5-4d19-846a-dd84176dfb37" />
+
 
 
 # Trained on 421x421 and tested on 842x842 
-<img width="1061" height="989" alt="image" src="https://github.com/user-attachments/assets/f2392699-19b2-4a50-bf9a-db83d506f53f" />
+<img width="1061" height="989" alt="image" src="https://github.com/user-attachments/assets/86daaa2d-e46c-4d7d-8270-9f9ce1e9268f" />
+
+It can also predict with on high res data while being trained on less res data
